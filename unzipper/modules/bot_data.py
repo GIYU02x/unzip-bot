@@ -152,12 +152,12 @@ class Buttons:
 
 class Messages:
     START_TEXT = """
-Hi **{}** 👋, I'm **Unarchiver bot** 🥰
+Hi **{}** 👋, I'm **UnZip BOT** 🥰
 
 
 I can extract archives like `zip`, `rar`, `tar`, …
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️ by @Zoro_StrawHat7**
     """
     # **This is BETA version !** May be a lot buggy, but with new features. Better waiting for the stable version at daytime… 🙂
 
@@ -179,12 +179,12 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 
 **• Got an error ?**
-    Visit edm115.eu.org/unzip#help
+    Visit @StrawHat_Support
 
 
-**• I wanna have help 🥺**
+**• Wanna Make Your Own 😎**
 
-    PM me at **@EDM115**
+    PM me at **@Zoro_StrawHat7**
     """
 
     ABOUT_TXT = """
@@ -192,10 +192,10 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 • **Language :** [Python 3.11.1](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.99](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot/tree/beta)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Source code :** [EDM115/unzip-bot](https://github.com/)
+• **Developer :** [Zoro - Straw Hat](https://t.me/Zoro_StrawHat7)
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️ by @TEAM_Straw_Hat**
     """
 
     LOG_TXT = """
@@ -239,7 +239,7 @@ Select the extraction mode for that {} 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted by @Unzip_StrawHatBOT ⚡
     """
 
     URL_UPLOAD = """
@@ -255,7 +255,7 @@ An error happened for `{}` 😕
 **Error type :** `{}`
 **Error message :** `{}`
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @Zoro_StrawHat7 if you think this is a serious error
     """
 
     REPORT_TEXT = """
@@ -297,7 +297,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @Zoro_StrawHat7 if you think this is a serious error
     """
 
     ERROR_TXT = """
@@ -305,7 +305,7 @@ Please report this at @EDM115 if you think this is a serious error
 
 `{}`
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @Zoro_StrawHat7 if you think this is a serious error
     """
 
     CANCELLED_TXT = """
