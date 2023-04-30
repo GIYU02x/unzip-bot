@@ -297,7 +297,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
                 await del_ongoing_task(user_id)
                 return await answer_query(
                     query,
-                    "Fatal query parsing error 💀 Please contact @EDM115 with details and screenshots",
+                    "Fatal query parsing error 💀 Please contact @Zoro_StrawHat7 with details and screenshots",
                     answer_only=True,
                     unzip_client=unzip_bot,
                 )
@@ -653,7 +653,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
             )
 
         await query.message.edit(
-            "**Successfully uploaded ✅**\n\n**Join @EDM115bots ❤️**")
+            "**Successfully uploaded ✅**\n\n**Join @TEAM_Straw_Hat ❤️**")
         await log_msg.reply(Messages.HOW_MANY_UPLOADED.format(sent_files))
         await update_uploaded(user_id, upload_count=sent_files)
         await del_ongoing_task(user_id)
