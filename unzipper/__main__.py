@@ -52,7 +52,12 @@ while running:
             LOGGER.info("Starting bot…")
             LOGGER.info("Bot is running now ! Join @StrawHat_Bots)
             idle()
-        
+        else:
+            try:
+                unzipperbot.send_message(
+                    chat_id=Config.BOT_OWNER,
+                    text=f"Error : the provided **LOGS_CHANNEL** (`{Config.LOGS_CHANNEL}`) is incorrect. Bot crashed 😪",
+                )
             except:
                 pass
             unzipperbot.stop()
